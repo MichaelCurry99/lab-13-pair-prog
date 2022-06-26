@@ -1,4 +1,4 @@
-// "use strict";
+"use strict";
 
 // ATTENTION: Please create functions for each exercise and test them with your function calls.
 
@@ -24,21 +24,21 @@ for(i=0;i<arr.length;i++){
 // // Example output: 
 // // 2 4 6 8 10 12 14 16 18 20 22 OR each item on a new line
  
-// for(i=0; i<n1.length; i++){
-// console.log(n1);
-
+for(i=0; i<n1.length; i++){
+console.log(n1);
+}
 // }
 
 
 // // 3) Using a for loop output the elements in reverse order
 
-// let arr = [43, "what", 9, true, "cannot", false, "be", 3, true];
+let arr = [43, "what", 9, true, "cannot", false, "be", 3, true];
 // // Example output: 
 // // true 3.5  be  false cannot  true 9 what 43 OR each item on a new line
-// for(i=0; i <arr.length;i++){
+for(i=0; i <arr.length;i++){
 
-//     console.log(arr[i]);
-// }
+    console.log(arr[i]);
+}
 
 
 
@@ -46,11 +46,14 @@ for(i=0;i<arr.length;i++){
 // // create a new array containing the sum of each pair. Assume both arrays are of the same length.
 
  
-// let arr_3   = [4, 6, 7];
-// let arr_4    = [8, 1, 9];
+let arr_3   = [4, 6, 7];
+let arr_4    = [8, 1, 9];
 // // Example output: 
 // // [12, 7, 16]
 
+for(i=0; i < arr_3.length;i++) {
+    console.log(arr_3[i] + arr_4[i]);
+}
 
 
 
@@ -59,7 +62,33 @@ for(i=0;i<arr.length;i++){
 // // Sample numbers : 0, -1, 4
 // // Output : 4, 0, -1
 
+let array1 = 0;
+let array2 = -1;
+let array3 = 4;
 
+// for(i=0; i < array1.length; i++){
+
+// }
+
+if (array1 > array2){
+    alert(array1 + "," + array2 + ","+ array3)
+    console.log(array1, array2, array3)
+}
+else if (array3 > array){
+    console.log(array3,array1,array2)
+}
 // // 6) Write a JavaScript conditional statement to find the largest of five numbers. Display an alert box to show the result. Go to the editor
 // // Sample numbers : -5, -2, -6, 0, -1
-// // Output : 0
+// // Output
+
+let number1 = -5;
+let number2 = -2;
+let number3 = -6;
+let number4 = 0;
+let number5 = -1;
+if(number1 > number3){
+    alert(number1 + "is the largest of" +number3);
+}
+else if(number3 < number4){
+    alert(number4 + "is the largest of" +number1);
+}
